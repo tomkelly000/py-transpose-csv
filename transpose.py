@@ -23,7 +23,6 @@ for row in array:
         transpose[j][i] = cell.strip()
         j += 1
     i += 1
-print transpose[len(array[0]) - 1]
 
 name = filename.rpartition('.')
 
